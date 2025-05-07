@@ -15,8 +15,7 @@ def divide(x, y):
  return x / y
 
 def square_root(x):
-  return x ** 0.5              #Calculator ni Hux pogi :]]]
-
+  return x ** 0.5              #Calculator ni real pogi :]]]]
 def power(x, y):
   return x ** y
 
@@ -26,7 +25,6 @@ def get_pi_decimal_places(terms):
  pi_value = round(math.pi, terms)
  return pi_value
 
-def percent of what
 
 print("simple calculator")
 print("select operation")
@@ -37,8 +35,9 @@ print("4. divide")
 print("5. square root")
 print("6. power")
 print("7. pi")
+print("8. realpogimaster is handsome")
 
-choice = input("enter choice (1/2/3/4/5/6/7): ")
+choice = input("enter choice (1/2/3/4/5/6/7/8): ")
 
 if choice == '1' or choice == '2' or choice == '3' or choice == '4' or choice == '6':
  num1 = float(input("enter first number: "))
@@ -50,6 +49,9 @@ elif choice == '5':
 elif choice == '7':
  terms = int(input("Enter the number of decimal places for pi: "))
  print(f"pi with {terms} decimal places: {get_pi_decimal_places(terms)}")
+
+elif choice == '8':
+ print("frrr, he gets all the huzz(REFFF!!! DO SOMETHING)")
 
 else:
  print("invalid input")
