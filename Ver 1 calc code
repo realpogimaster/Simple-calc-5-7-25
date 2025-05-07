@@ -78,5 +78,8 @@ elif choice == '6':
 elif choice == '7':
   print("pi =", get_pi_decimal_places(terms))
 
+elif choice == '8':
+ print("^he probably has a helcat too and probably is 6'4^")
+
 else:
   print("invalid input")
